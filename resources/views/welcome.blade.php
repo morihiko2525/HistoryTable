@@ -3,13 +3,44 @@
 @section('content')
 
     <div class = top-img>
-        <p class = title>Web年表作成</p>
+        <p class = title>Webで年表作成</p>
     </div>
     
-    <div class = "box">
-        <div>ここに写真を挿入する</div>
-        <div>2</div>
-        <div>3</div>
+    <h1>人気の年表</h1>
+    
+    <div class = "history-table-feature">
+        <div class = history-table-content>
+            <div class = linkBox>
+                <div class = ht-sumnail>
+                    <img src = "https://riverwalk.co.jp/app/wp-content/uploads/2019/03/20190318-saizeriya_logo.jpg" width = 200px height = 200px>
+                </div>
+            <a href="https://www.google.co.jp"></a>
+            <p class = ht-title>サイゼリヤ年表</p>
+            <p>ここは年表説明欄です。サイゼリヤの年表を作りたいと思っています。</p>
+                </div>
+        </div>
+            
+        <div class = history-table-content>
+            <div class = linkBox>
+                <div class = ht-sumnail>
+                    <img src = "https://riverwalk.co.jp/app/wp-content/uploads/2019/03/20190318-saizeriya_logo.jpg" width = 200px height = 200px>
+                </div>
+            <a href="https://www.google.co.jp"></a>
+            <p class = ht-title>サイゼリヤ年表</p>
+            <p>ここは年表説明欄です。サイゼリヤの年表を作りたいと思っています。</p>
+                </div>
+        </div>
+        
+        <div class = history-table-content>
+            <div class = linkBox>
+                <div class = ht-sumnail>
+                    <img src = "https://riverwalk.co.jp/app/wp-content/uploads/2019/03/20190318-saizeriya_logo.jpg" width = 200px height = 200px>
+                </div>
+            <a href="https://www.google.co.jp"></a>
+            <p class = ht-title>サイゼリヤ年表</p>
+            <p>ここは年表説明欄です。サイゼリヤの年表を作りたいと思っています。</p>
+                </div>
+        </div>
     </div>
     
     

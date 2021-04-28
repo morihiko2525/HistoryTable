@@ -12,11 +12,13 @@ p.title{
 }
 
 h1{
-    color:red;
+    text-align: center;
+    color:black;
+    font-weight: 500;
 }
 
  /* --- 外枠の定義 ---------------------------------------------*/
-.box {
+.history-table-feature {
   margin         : auto;                 /* サンプル用 中央寄せ */
   margin-top: 40px;
   box-sizing     : border-box;           /* 罫線も含む長さ      */
@@ -34,9 +36,9 @@ h1{
 
 
  /* --- 個別のBOXの定義 --------------------------------------- */
-.box div {
+.history-table-content{
   box-sizing     : border-box;           /* 罫線も含む長さ      */
-  background     : #B0C4DE;              /* BOXの背景色         */
+  /*background     : #B0C4DE;              /* BOXの背景色         */
   /*border         : 2px solid #35557f;    /* 枠線の指定          */
   width          : 300px;                 /* サンプルBOXの幅     */
   height         : 300px;                 /* サンプルBOXの幅     */
@@ -44,4 +46,41 @@ h1{
 
   /* ▼ inline-blockの定義 */
   display        : inline-block;         /* インラインブロック化*/
+}
+
+.ht-sumnail{
+    display: block;
+    height: 200px;
+    width: 200px;
+    /*text-align: center;*/
+    background-color: #FFCCFF;
+      
+    margin         : auto;                 /* サンプル用 中央寄せ */
+
+}
+
+.ht-title{
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.ht-description{
+    
+}
+
+.linkBox {
+	position: relative;
+}
+
+.linkBox a {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.linkBox a:hover{/* マウスオーバー時に色変更*/
+    opacity: 0.1;
+    background-color: #000000;
 }
