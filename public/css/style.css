@@ -1,7 +1,8 @@
 div.top-img{
-    display: block;
+    /*display: block;*/
     height: 600px;
-    background-color: #FFCCFF;
+    background-color: #3C3C76;
+    width: 100%;
 }
 
 p.title{
@@ -9,6 +10,7 @@ p.title{
   height:60px;
   line-height:500px;
   font-size: 50px;
+  color: white;
 }
 
 h1{
@@ -22,10 +24,10 @@ h1{
   margin         : auto;                 /* サンプル用 中央寄せ */
   margin-top: 40px;
   box-sizing     : border-box;           /* 罫線も含む長さ      */
-  background     : #fff;                 /* BOXの背景色         */
+  /*background     : #3c3c76;                 /* BOXの背景色         */
   /*border         : 1px solid #666;       /* 枠線の指定          */
   width          : 1000px;                /* BOXの幅             */
-  max-height     : 210px;                /* BOXの高さ           */
+  max-height     : 420px;                /* BOXの高さ           */
   animation: boxAnime 10s linear infinite alternate;
 
   /* ▼ inline-block時の定義 */
@@ -42,7 +44,7 @@ h1{
   /*border         : 2px solid #35557f;    /* 枠線の指定          */
   width          : 300px;                 /* サンプルBOXの幅     */
   height         : 300px;                 /* サンプルBOXの幅     */
-  margin         : 5px;                  /* サンプルBOXの間     */
+  margin         : 12px;                  /* サンプルBOXの間     */
 
   /* ▼ inline-blockの定義 */
   display        : inline-block;         /* インラインブロック化*/
@@ -66,6 +68,13 @@ h1{
 
 .ht-description{
     
+}
+
+.site-feature{
+
+    height: 700px;
+    background-color: #FFCCFF;
+
 }
 
 .linkBox {

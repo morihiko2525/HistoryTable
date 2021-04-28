@@ -6,9 +6,9 @@
         <p class = title>Webで年表作成</p>
     </div>
     
-    <h1>人気の年表</h1>
     
     <div class = "history-table-feature">
+    <h1>人気の年表</h1>
         <div class = history-table-content>
             <div class = linkBox>
                 <div class = ht-sumnail>
@@ -43,5 +43,7 @@
         </div>
     </div>
     
-    
+    <div class = site-feature>
+    <p>特徴</p>    
+    </div>
 @endsection
