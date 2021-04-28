@@ -1,0 +1,16 @@
+div.top-img{
+    display: block;
+    height: 600px;
+    background-color: #FFCCFF;
+}
+
+p.title{
+  text-align:center;
+  height:60px;
+  line-height:500px;
+  font-size: 50px;
+}
+
+h1{
+    color:red;
+}
